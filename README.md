@@ -1,0 +1,29 @@
+``
+Block
+   |
+   --> RTL.php
+etc
+   |
+   --> adminhtml
+	   |
+	   --> system.xml
+   |
+   --> moudle.xml
+view
+   |
+   --> frontend
+           |
+           --> layout
+                  |
+                  --> default_head_blocks.xml
+           |
+           --> templates
+                  |
+                  --> rtl_css.phtml
+	   |
+           --> web
+                  |
+                  --> css
+                         |
+                         --> rtl.css
+``
