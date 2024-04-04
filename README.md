@@ -28,9 +28,9 @@ view
                          --> rtl.css
 ```
 
-##RTL.php##
-##system.xml##
-##moudle.xml##
-##default_head_blocks.xml##
-##rtl_css.phtml##
-##rtl.css##
+##RTL.php
+##system.xml
+##moudle.xml
+##default_head_blocks.xml
+##rtl_css.phtml
+##rtl.css
