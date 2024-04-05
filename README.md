@@ -7,6 +7,17 @@
 
 RTL Module is a Magento module designed to facilitate Right-to-Left (RTL) language support within Magento-based e-commerce websites. It offers a comprehensive solution for enabling RTL directionality across various aspects of the frontend, including layout, styling, and content rendering. Through its configuration settings and layout directives, RTL Module enables administrators to seamlessly customize the appearance and behavior of their Magento stores to cater to RTL languages such as Arabic, Hebrew, and Persian. Leveraging its block classes and template files, the module dynamically adjusts CSS stylesheets and layout components to ensure optimal user experience for RTL-oriented audiences. RTL Module serves as a valuable tool for Magento merchants seeking to expand their market reach and enhance accessibility for diverse linguistic communities.
 
+download Rudent/RTL to your code folder in magento2 (keep folders or moudle will be broke),
+
+enable to module using the command:
+```console
+sudo bin/magento module:enable Rudenet_RTL
+```
+flush cache and upgrade modules
+```
+sudo bin/magento setup:upgrade
+```
+
 ```
 Block
    |
