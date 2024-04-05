@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td> <img src="https://raw.githubusercontent.com/proxytype/Magento2-RTL-Module/main/Magneto.PNG"  alt="1" width = 360px height = 640px ></td>
+    <td> <img src="https://raw.githubusercontent.com/proxytype/Magento2-RTL-Module/main/Magneto.PNG"  alt="1"></td>
     <td>RTL Module - 2.4.x</td>
    </tr> 
 </table>
