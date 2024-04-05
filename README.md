@@ -103,6 +103,7 @@ Overall, this block class (`RTL`) is designed to determine whether RTL mode is e
 - It is represented as a Yes/No dropdown in the admin configuration.
 - The options for the field are provided by the `Magento\Config\Model\Config\Source\Yesno` model.
 
+
 ## moudle.xml
 
 ### Root `<config>` Element:
@@ -122,7 +123,56 @@ Overall, this block class (`RTL`) is designed to determine whether RTL mode is e
 - It has attributes like `name` and `setup_version`.
   - `name`: Specifies the name of the module (in this case, "Rudenet_RTL").
   - `setup_version`: Specifies the version of the module setup script.
+
  
 ## default_head_blocks.xml
+
+### Root `<page>` Element:
+- The `<page>` element is the root element of the XML configuration.
+- It encapsulates configuration settings for a specific Magento page layout.
+
+### `xmlns:xsi` Attribute:
+- The `xmlns:xsi` attribute defines the XML namespace for the XML Schema Instance (xsi).
+- It specifies the location of the XML Schema Definition (XSD) used for validation.
+
+### `xsi:noNamespaceSchemaLocation` Attribute:
+- The `xsi:noNamespaceSchemaLocation` attribute specifies the location of the XSD schema file used for validation.
+- In this case, it points to the page configuration XSD schema file (`page_configuration.xsd`) within the Magento framework.
+
+### Page Configuration:
+- The configuration inside the `<page>` element defines layout instructions for a specific page in Magento.
+
+### `<body>` Element:
+- The `<body>` element encapsulates layout instructions for the body of the page.
+- It contains directives to include various blocks and containers within the page layout.
+
+### `<referenceBlock>` Element:
+- The `<referenceBlock>` element specifies a reference to an existing block within the layout.
+- It allows you to modify or add content to the referenced block.
+
+### `name` Attribute:
+- The `name` attribute of the `<referenceBlock>` element specifies the name of the block being referenced.
+- In this case, it refers to the block with the name "head.additional".
+
+### `<block>` Element:
+- The `<block>` element defines a new block to be added to the layout.
+- It has attributes like `class`, `name`, and `template`.
+  - `class`: Specifies the PHP class of the block.
+  - `name`: Specifies a unique name for the block.
+  - `template`: Specifies the template file to be used for rendering the block.
+
+### `class` Attribute:
+- The `class` attribute of the `<block>` element specifies the PHP class of the block.
+- It indicates that the block should be instantiated from the `Rudenet\RTL\Block\RTL` class.
+
+### `name` Attribute:
+- The `name` attribute of the `<block>` element specifies a unique name for the block.
+- It is used to reference the block within the layout XML.
+
+### `template` Attribute:
+- The `template` attribute of the `<block>` element specifies the template file to be used for rendering the block.
+- In this case, it points to the template file `rtl_css.phtml` located in the `Rudenet_RTL` module.
+
+
 ## rtl_css.phtml
 ## rtl.css
