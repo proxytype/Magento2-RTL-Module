@@ -1,3 +1,5 @@
+RTL Module is a Magento module designed to facilitate Right-to-Left (RTL) language support within Magento-based e-commerce websites. It offers a comprehensive solution for enabling RTL directionality across various aspects of the frontend, including layout, styling, and content rendering. Through its configuration settings and layout directives, RTL Module enables administrators to seamlessly customize the appearance and behavior of their Magento stores to cater to RTL languages such as Arabic, Hebrew, and Persian. Leveraging its block classes and template files, the module dynamically adjusts CSS stylesheets and layout components to ensure optimal user experience for RTL-oriented audiences. RTL Module serves as a valuable tool for Magento merchants seeking to expand their market reach and enhance accessibility for diverse linguistic communities.
+
 ```
 Block
    |
@@ -27,6 +29,8 @@ view
                          |
                          --> rtl.css
 ```
+
+# Code Explanation 
 
 ## RTL.php
 
@@ -175,4 +179,30 @@ Overall, this block class (`RTL`) is designed to determine whether RTL mode is e
 
 
 ## rtl_css.phtml
+
+### `if` Statement:
+- The `if` statement checks a condition to determine whether a block of code should be executed.
+- In this case, `if ($block->isEnabled())` checks if the RTL functionality is enabled by calling the `isEnabled()` method of the `$block` object.
+- If the condition evaluates to true, the code within the `if` block is executed.
+
+### `endif;` Statement:
+- The `endif;` statement marks the end of the `if` block.
+- It closes the conditional block and indicates the end of the code that should be executed conditionally.
+
+### CSS Inclusion:
+- Inside the `if` block, a CSS file is included dynamically if the RTL functionality is enabled.
+- The `<link>` element with the `rel="stylesheet"` attribute specifies a CSS file to be included.
+- The `type="text/css"` attribute specifies the type of the linked resource as CSS.
+- The `href` attribute contains the URL of the CSS file.
+  - The URL is generated dynamically by calling the `addCustomCss()` method of the `$block` object.
+  - This method retrieves the URL of the custom CSS file to be included based on the RTL configuration.
+  - The PHP `echo` statement is used to output the URL within the HTML attribute value.
+
+### PHP Short Syntax:
+- `<?php ... ?>` and `<?php ... ?>` tags are used to enclose PHP code blocks.
+- The PHP `echo` statement is used to output data to the HTML document.
+- `<?= ... ?>` is a shorthand syntax for `<?php echo ...; ?>`, used here to output the URL dynamically within the HTML document.
+
+
 ## rtl.css
+your own overwrite classes for direction and styling
