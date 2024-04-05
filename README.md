@@ -205,4 +205,4 @@ Overall, this block class (`RTL`) is designed to determine whether RTL mode is e
 
 
 ## rtl.css
-your own overwrite classes for direction and styling
+your own overwrite classes for direction and styling.
