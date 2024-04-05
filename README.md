@@ -14,11 +14,11 @@ Verify module exists:
 sudo bin/magento module:status
 ```
 
-Enable to module:
+Enable the module:
 ```console
 sudo bin/magento module:enable Rudenet_RTL
 ```
-Flush cache and upgrade modules
+Flush cache and upgrade modules:
 ```console
 sudo bin/magento setup:upgrade
 ```
