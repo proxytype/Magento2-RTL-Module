@@ -110,7 +110,7 @@ Overall, this block class (`RTL`) is designed to determine whether RTL mode is e
 - The options for the field are provided by the `Magento\Config\Model\Config\Source\Yesno` model.
   
 ![Magento](https://raw.githubusercontent.com/proxytype/Magento2-RTL-Module/main/rtl-flag.PNG)
-
+admin->stores->configuration
 
 ## moudle.xml
 
