@@ -108,6 +108,8 @@ Overall, this block class (`RTL`) is designed to determine whether RTL mode is e
 - This field is a select type field allowing the user to enable or disable RTL direction.
 - It is represented as a Yes/No dropdown in the admin configuration.
 - The options for the field are provided by the `Magento\Config\Model\Config\Source\Yesno` model.
+  
+![Magento](https://raw.githubusercontent.com/proxytype/Magento2-RTL-Module/main/rtl-flag.PNG)
 
 
 ## moudle.xml
