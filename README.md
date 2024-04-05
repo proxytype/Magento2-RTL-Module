@@ -23,6 +23,8 @@ Flush cache and upgrade modules:
 sudo bin/magento setup:upgrade
 ```
 
+# Module Structure
+
 ```
 Block
    |
