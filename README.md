@@ -10,7 +10,7 @@ RTL Module is a Magento module designed to facilitate Right-to-Left (RTL) langua
 Download Rudenet/RTL to your code folder in Magento 2 (ensure that you maintain the folder structure, or the module will break).
 
 Verify module exists:
-```
+```console
 sudo bin/magento module:status
 ```
 
@@ -19,7 +19,7 @@ Enable to module:
 sudo bin/magento module:enable Rudenet_RTL
 ```
 Flush cache and upgrade modules
-```
+```console
 sudo bin/magento setup:upgrade
 ```
 
