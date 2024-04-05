@@ -104,6 +104,25 @@ Overall, this block class (`RTL`) is designed to determine whether RTL mode is e
 - The options for the field are provided by the `Magento\Config\Model\Config\Source\Yesno` model.
 
 ## moudle.xml
+
+### Root `<config>` Element:
+- The `<config>` element is the root element of the XML configuration.
+- It encapsulates configuration settings for the Magento module.
+
+### `xmlns:xsi` Attribute:
+- The `xmlns:xsi` attribute defines the XML namespace for the XML Schema Instance (xsi).
+- It specifies the location of the XML Schema Definition (XSD) used for validation.
+
+### `xsi:noNamespaceSchemaLocation` Attribute:
+- The `xsi:noNamespaceSchemaLocation` attribute specifies the location of the XSD schema file used for validation.
+- In this case, it points to the module XSD schema file (`module.xsd`) within the Magento framework.
+
+### Module Configuration:
+- The `<module>` element defines configuration settings for the Magento module.
+- It has attributes like `name` and `setup_version`.
+  - `name`: Specifies the name of the module (in this case, "Rudenet_RTL").
+  - `setup_version`: Specifies the version of the module setup script.
+ 
 ## default_head_blocks.xml
 ## rtl_css.phtml
 ## rtl.css
