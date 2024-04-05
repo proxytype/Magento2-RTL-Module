@@ -1,3 +1,17 @@
+<table>
+  <tr>
+    <td> <img src="img1.png"  alt="1" width = 360px height = 640px ></td>
+
+    <td><img src="img2.png" alt="2" width = 360px height = 640px></td>
+   </tr> 
+   <tr>
+      <td><img src="./Scshot/cab_arrived.png" alt="3" width = 360px height = 640px></td>
+
+      <td><img src="./Scshot/trip_end.png" align="right" alt="4" width = 360px height = 640px>
+  </td>
+  </tr>
+</table>
+
 ![Magento](https://raw.githubusercontent.com/proxytype/Magento2-RTL-Module/main/Magneto.PNG)
 
 RTL Module is a Magento module designed to facilitate Right-to-Left (RTL) language support within Magento-based e-commerce websites. It offers a comprehensive solution for enabling RTL directionality across various aspects of the frontend, including layout, styling, and content rendering. Through its configuration settings and layout directives, RTL Module enables administrators to seamlessly customize the appearance and behavior of their Magento stores to cater to RTL languages such as Arabic, Hebrew, and Persian. Leveraging its block classes and template files, the module dynamically adjusts CSS stylesheets and layout components to ensure optimal user experience for RTL-oriented audiences. RTL Module serves as a valuable tool for Magento merchants seeking to expand their market reach and enhance accessibility for diverse linguistic communities.
