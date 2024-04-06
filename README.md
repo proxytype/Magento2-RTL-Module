@@ -32,8 +32,8 @@ Block
 etc
    |
    --> adminhtml
-	   |
-	   --> system.xml
+   |	   |
+   |	   --> system.xml
    |
    --> moudle.xml
 view
@@ -41,12 +41,12 @@ view
    --> frontend
            |
            --> layout
-                  |
-                  --> default_head_blocks.xml
+           |      |
+           |      --> default_head_blocks.xml
            |
            --> templates
-                  |
-                  --> rtl_css.phtml
+           |      |
+           |      --> rtl_css.phtml
 	   |
            --> web
                   |
